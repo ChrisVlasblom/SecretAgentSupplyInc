@@ -1,3 +1,74 @@
 html{
   font-size: 18px;
 }
+
+body{
+  font-family: Helvetica, sans-serif;
+  color: white;
+}
+
+.banner{
+  background-color: black;
+  width: 100%;
+}
+
+.site-container{
+  width: 960px;
+  margin: auto auto;
+}
+
+.banner-cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.banner-logo{
+  display: flex;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.banner-text{
+  display: flex;
+  font-size: 1rem;
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
+}
+
+.header{
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  height: 25rem;
+  background-size: cover;
+  display: flex;
+}
+
+.header-cont{
+  margin-top: 9rem;
+  width: 25rem;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-new{
+  display: flex;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.header-sport{
+  display: flex;
+  font-weight: bold;
+  margin-left: 3rem;
+  margin-top: 0.25rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
